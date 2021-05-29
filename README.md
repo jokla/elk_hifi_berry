@@ -18,7 +18,7 @@ To connect the heaphones:
 # Installation:
 - Follow the official ELK documentation [Getting started](https://elk-audio.github.io/elk-docs/html/documents/getting_started_with_development_kit_elk_pi_hardware.html)
 - After the SD flashing, I connected the Raspberry PI to a monitor and set up the WiFi connection (see [here](https://elk-audio.github.io/elk-docs/html/documents/working_with_elk_board.html?highlight=wifi#over-wifi))
-- You can connect to your device with ssh: `ssh mind@IP` (you can configure your router to give always the same IP to your device) or `ssh mind@elk-pi` 
+- You can connect to your device with ssh: `ssh mind@<ip_address_here>` (you can configure your router to give always the same IP to your device) or `ssh mind@elk-pi` 
 
 # Run Sushi and a MIDI controller
 - If you don't have a MIDI controller, you can use your smartphone and a USB cable. 
