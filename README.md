@@ -69,5 +69,6 @@ Source  Event                  Ch  Data
 https://mclarenlabs.com/blog/2018/07/03/linux-midi-cheatsheet/
 
 
-# Test audio (not working)
- `speaker-test` or `speaker-test -t wav -c 6 `
+# Test audio output
+`sushi -r --multicore-processing=2 -c ~/config_files/mda-vst3-configs/config_play_arp_mda_link.json &`   
+ `speaker-test` or `speaker-test -t wav -c 6 ` (not working)   
